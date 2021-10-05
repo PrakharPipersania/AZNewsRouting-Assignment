@@ -15,6 +15,7 @@ import { BlogComponent } from './blog/blog.component';
 import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { CategoriDetailsComponent } from './categori-details/categori-details.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { NewsDetailsComponent } from './news-details/news-details.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     BlogComponent,
     BlogDetailsComponent,
     CategoriDetailsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NewsDetailsComponent
   ],
   imports: [
     BrowserModule,
